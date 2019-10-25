@@ -1,0 +1,15 @@
+{
+  "name": "bofxvscrap",
+  "version": "1.0.0",
+  "description": "An expressjs-based web utility for searching BOFXV impressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "startwork"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^2.0.0"
+  }
+}
