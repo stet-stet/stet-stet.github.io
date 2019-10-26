@@ -84,11 +84,19 @@ async function rebuild_database(page){
     let db=[];
     const list = await get_bms_names(page);
     const entries = list.length;
-    console.log(entries);
-    for(let i=1;i<=2;i++){
-        db.concat(await scrap(i,page));
+    //console.log(entries);
+    for(let i=1;i<=entries;i++){
+        await new Promise(function(resolve){
+            setTimeout(function(){
+                resolve('foo');
+            },3000);
+        }); // blocking delay.
+        const a = await scrap(i,page);
+        //console.log(a);
+        db = db.concat(a);
     }
     var data = {};
+    //console.log(db);
     data.table = db;
     return data;
 }
