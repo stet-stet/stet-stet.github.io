@@ -23,8 +23,17 @@ async function scrap(number,page){
     //점수 .points_normal gettext
     //사람 .entry-c > .entry-title > strong
     const url = `http://manbow.nothing.sh/event/event.cgi?action=More_def&num=${number}&event=127`
-    await page.goto(url,{timeout:120000});
-    const name = await page.$eval('.col_two_third > h2',(a)=>{return a.innerText;} );
+    for(let j=0;j<=5;++j){
+        try{
+            await page.goto(url,{timeout:120000});
+            break;
+        }
+        catch(TimeoutError){
+            if(j==5) return [];
+        }
+    }
+    
+    //const name = await page.$eval('.col_two_third > h2',(a)=>{return a.innerText;} );
     //votes
     await page.$$eval('.togglet',buttons=>{
         const len = buttons.length;
@@ -74,24 +83,23 @@ async function scrap(number,page){
             person: a[1],
         }
     });
-    console.log(votes);
-    console.log(shorts);
-    console.log(longs);
+    //console.log(votes);
+    //console.log(shorts);
+    //console.log(longs);
     return votes.concat(shorts).concat(longs);
 }
 
 async function rebuild_database(page){
     let db=[];
-    const list = await get_bms_names(page);
+    const id_name = await get_bms_names(page);
+    const list = id_name.map(a=>Number(a[0]));
     const entries = list.length;
     //console.log(entries);
-    for(let i=1;i<=entries;i++){
-        await new Promise(function(resolve){
-            setTimeout(function(){
-                resolve('foo');
-            },3000);
-        }); // blocking delay.
-        const a = await scrap(i,page);
+    for(let i=0;i<entries;i++){
+        console.log(id_name[i]);
+        await new Promise(function(resolve){setTimeout(function(){resolve('foo');},3000);}); 
+        // blocking delay 3000ms
+        const a = await scrap(list[i],page);
         //console.log(a);
         db = db.concat(a);
     }
