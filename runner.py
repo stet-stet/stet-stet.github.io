@@ -2,6 +2,7 @@ import subprocess
 from time import sleep
 
 def doit():
+  subprocess.call("git pull origin master",shell=True)
   subprocess.call("node scrap.js",shell=True)
   subprocess.call("git add *",shell=True)
   subprocess.call("git commit -m 'update'",shell=True)
