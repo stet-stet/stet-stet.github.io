@@ -1,6 +1,13 @@
 import subprocess
+from time import sleep
 
-subprocess.call("node scrap.js",shell=True)
-subprocess.call("git add *",shell=True)
-subprocess.call("git commit -m 'update'",shell=True)
-subprocess.call("git push remote ")
+def doit():
+  subprocess.call("node scrap.js",shell=True)
+  subprocess.call("git add *",shell=True)
+  subprocess.call("git commit -m 'update'",shell=True)
+  subprocess.call("git push origin master",shell=True)
+
+if __name__=="__main__":
+  while True:
+    doit()
+    sleep(14400)

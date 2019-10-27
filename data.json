@@ -17,6 +17,16 @@
     },
     {
       "id": 1,
+      "score": "970",
+      "person": "NASA"
+    },
+    {
+      "id": 1,
+      "score": "950",
+      "person": "QaraBox"
+    },
+    {
+      "id": 1,
       "score": "900",
       "person": "BKANOTHER"
     },
@@ -57,6 +67,11 @@
     },
     {
       "id": 1,
+      "score": "935",
+      "person": "Sound piercer"
+    },
+    {
+      "id": 1,
       "score": "960",
       "person": "SOMON"
     },
@@ -89,6 +104,11 @@
       "id": 2,
       "score": "1000",
       "person": "ViRU"
+    },
+    {
+      "id": 2,
+      "score": "1000",
+      "person": "十錠らぴす"
     },
     {
       "id": 2,
@@ -312,6 +332,16 @@
     },
     {
       "id": 4,
+      "score": "970",
+      "person": "QaraBox"
+    },
+    {
+      "id": 4,
+      "score": "1000",
+      "person": "neu"
+    },
+    {
+      "id": 4,
       "score": "940",
       "person": "BKANOTHER"
     },
@@ -467,6 +497,11 @@
     },
     {
       "id": 5,
+      "score": "970",
+      "person": "Xile"
+    },
+    {
+      "id": 5,
       "score": "1000",
       "person": "そにー"
     },
@@ -494,6 +529,11 @@
       "id": 5,
       "score": "895",
       "person": "DK"
+    },
+    {
+      "id": 5,
+      "score": "1000",
+      "person": "928 (Kuniha)"
     },
     {
       "id": 5,
@@ -1052,6 +1092,11 @@
     },
     {
       "id": 8,
+      "score": "990",
+      "person": "Xile"
+    },
+    {
+      "id": 8,
       "score": "955",
       "person": "Ben"
     },
@@ -1332,6 +1377,11 @@
     },
     {
       "id": 10,
+      "score": "930",
+      "person": "Xile"
+    },
+    {
+      "id": 10,
       "score": "910",
       "person": "stiller"
     },
@@ -1509,6 +1559,11 @@
       "id": 10,
       "score": "800",
       "person": "Hyparpax"
+    },
+    {
+      "id": 11,
+      "score": "990",
+      "person": "Xile"
     },
     {
       "id": 11,
@@ -1702,6 +1757,11 @@
     },
     {
       "id": 12,
+      "score": "1000",
+      "person": "QaraBox"
+    },
+    {
+      "id": 12,
       "score": "975",
       "person": "BKANOTHER"
     },
@@ -1853,6 +1913,11 @@
     {
       "id": 13,
       "score": "1000",
+      "person": "Xile"
+    },
+    {
+      "id": 13,
+      "score": "1000",
       "person": "hinoki"
     },
     {
@@ -1899,6 +1964,11 @@
       "id": 13,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 13,
+      "score": "1000",
+      "person": "namo"
     },
     {
       "id": 13,
@@ -2287,6 +2357,11 @@
     },
     {
       "id": 16,
+      "score": "975",
+      "person": "BKANOTHER"
+    },
+    {
+      "id": 16,
       "score": "950",
       "person": "金平糖"
     },
@@ -2349,6 +2424,11 @@
       "id": 17,
       "score": "950",
       "person": "Mallow♪"
+    },
+    {
+      "id": 17,
+      "score": "1000",
+      "person": "BKANOTHER"
     },
     {
       "id": 17,
@@ -2502,6 +2582,11 @@
     },
     {
       "id": 18,
+      "score": "935",
+      "person": "BKANOTHER"
+    },
+    {
+      "id": 18,
       "score": "925",
       "person": "69 de 74◆2RZbvtanL2wV"
     },
@@ -2574,6 +2659,11 @@
       "id": 19,
       "score": "880",
       "person": "DK"
+    },
+    {
+      "id": 19,
+      "score": "870",
+      "person": "BKANOTHER"
     },
     {
       "id": 19,
@@ -2684,6 +2774,11 @@
       "id": 19,
       "score": "850",
       "person": "AYhaz"
+    },
+    {
+      "id": 20,
+      "score": "980",
+      "person": "Xile"
     },
     {
       "id": 20,
@@ -2889,6 +2984,21 @@
       "id": 21,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 21,
+      "score": "975",
+      "person": "BKANOTHER"
+    },
+    {
+      "id": 21,
+      "score": "610",
+      "person": "QaraBox"
+    },
+    {
+      "id": 21,
+      "score": "930",
+      "person": "namo"
     },
     {
       "id": 21,
@@ -3147,6 +3257,11 @@
     },
     {
       "id": 22,
+      "score": "990",
+      "person": "Xile"
+    },
+    {
+      "id": 22,
       "score": "1000",
       "person": "そにー"
     },
@@ -3154,6 +3269,11 @@
       "id": 22,
       "score": "955",
       "person": "DK"
+    },
+    {
+      "id": 22,
+      "score": "1000",
+      "person": "BKANOTHER"
     },
     {
       "id": 22,
@@ -3342,6 +3462,21 @@
     },
     {
       "id": 24,
+      "score": "940",
+      "person": "BKANOTHER"
+    },
+    {
+      "id": 24,
+      "score": "1000",
+      "person": "QaraBox"
+    },
+    {
+      "id": 24,
+      "score": "1000",
+      "person": "neu"
+    },
+    {
+      "id": 24,
       "score": "995",
       "person": "Star*"
     },
@@ -3484,6 +3619,11 @@
       "id": 25,
       "score": "990",
       "person": "ViRU"
+    },
+    {
+      "id": 25,
+      "score": "890",
+      "person": "BKANOTHER"
     },
     {
       "id": 25,
@@ -3662,6 +3802,11 @@
     },
     {
       "id": 27,
+      "score": "950",
+      "person": "BKANOTHER"
+    },
+    {
+      "id": 27,
       "score": "920",
       "person": "FFCL"
     },
@@ -3834,6 +3979,11 @@
       "id": 28,
       "score": "975",
       "person": "MoonYang"
+    },
+    {
+      "id": 28,
+      "score": "950",
+      "person": "QaraBox"
     },
     {
       "id": 28,
@@ -4067,6 +4217,16 @@
     },
     {
       "id": 30,
+      "score": "940",
+      "person": "BKANOTHER"
+    },
+    {
+      "id": 30,
+      "score": "990",
+      "person": "そーり"
+    },
+    {
+      "id": 30,
       "score": "750",
       "person": "Hyparpax"
     },
@@ -4109,6 +4269,11 @@
       "id": 30,
       "score": "975",
       "person": "SOMON"
+    },
+    {
+      "id": 31,
+      "score": "910",
+      "person": "Xile"
     },
     {
       "id": 31,
@@ -4798,6 +4963,11 @@
     {
       "id": 39,
       "score": "975",
+      "person": "kooridori"
+    },
+    {
+      "id": 39,
+      "score": "975",
       "person": "suraita?"
     },
     {
@@ -5447,6 +5617,11 @@
     },
     {
       "id": 48,
+      "score": "720",
+      "person": "Thasyka"
+    },
+    {
+      "id": 48,
       "score": "650",
       "person": "かに"
     },
@@ -5474,6 +5649,11 @@
       "id": 49,
       "score": "845",
       "person": "DK"
+    },
+    {
+      "id": 49,
+      "score": "875",
+      "person": "Thasyka"
     },
     {
       "id": 49,
@@ -5514,6 +5694,11 @@
       "id": 50,
       "score": "800",
       "person": "DK"
+    },
+    {
+      "id": 50,
+      "score": "835",
+      "person": "Thasyka"
     },
     {
       "id": 50,
@@ -5649,6 +5834,11 @@
       "id": 51,
       "score": "1000",
       "person": "赤坂サカスで母躱す"
+    },
+    {
+      "id": 51,
+      "score": "987",
+      "person": "tkqn14_Append"
     },
     {
       "id": 51,
@@ -5872,6 +6062,11 @@
     },
     {
       "id": 54,
+      "score": "930",
+      "person": "Exsy"
+    },
+    {
+      "id": 54,
       "score": "950",
       "person": "NASA"
     },
@@ -5944,6 +6139,11 @@
       "id": 55,
       "score": "965",
       "person": "EPIMATA"
+    },
+    {
+      "id": 55,
+      "score": "915",
+      "person": "Sound piercer"
     },
     {
       "id": 56,
@@ -6197,6 +6397,11 @@
     },
     {
       "id": 60,
+      "score": "930",
+      "person": "Xile"
+    },
+    {
+      "id": 60,
       "score": "1000",
       "person": "hinoki"
     },
@@ -6234,6 +6439,11 @@
       "id": 60,
       "score": "950",
       "person": "MoonYang"
+    },
+    {
+      "id": 60,
+      "score": "950",
+      "person": "QaraBox"
     },
     {
       "id": 60,
@@ -6484,6 +6694,11 @@
       "id": 64,
       "score": "830",
       "person": "DK"
+    },
+    {
+      "id": 64,
+      "score": "950",
+      "person": "NASA"
     },
     {
       "id": 64,
@@ -6752,6 +6967,11 @@
     },
     {
       "id": 69,
+      "score": "980",
+      "person": "NASA"
+    },
+    {
+      "id": 69,
       "score": "1000",
       "person": "Krafton"
     },
@@ -6944,6 +7164,11 @@
       "id": 71,
       "score": "905",
       "person": "DK"
+    },
+    {
+      "id": 71,
+      "score": "900",
+      "person": "kooridori"
     },
     {
       "id": 71,
@@ -7159,6 +7384,16 @@
       "id": 76,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 76,
+      "score": "1000",
+      "person": "B_Rather"
+    },
+    {
+      "id": 76,
+      "score": "980",
+      "person": "QaraBox"
     },
     {
       "id": 76,
@@ -7782,6 +8017,11 @@
     },
     {
       "id": 85,
+      "score": "900",
+      "person": "Exsy"
+    },
+    {
+      "id": 85,
       "score": "949",
       "person": "suraita?"
     },
@@ -8037,6 +8277,11 @@
     },
     {
       "id": 88,
+      "score": "950",
+      "person": "Exsy"
+    },
+    {
+      "id": 88,
       "score": "924",
       "person": "suraita?"
     },
@@ -8194,6 +8439,11 @@
       "id": 91,
       "score": "895",
       "person": "DK"
+    },
+    {
+      "id": 91,
+      "score": "800",
+      "person": "AYhaz"
     },
     {
       "id": 91,
@@ -8732,6 +8982,11 @@
     },
     {
       "id": 99,
+      "score": "120",
+      "person": "kujou"
+    },
+    {
+      "id": 99,
       "score": "800",
       "person": "LAyaJnamiJ"
     },
@@ -8854,6 +9109,16 @@
       "id": 101,
       "score": "650",
       "person": "qfeileadh"
+    },
+    {
+      "id": 101,
+      "score": "850",
+      "person": "Exsy"
+    },
+    {
+      "id": 101,
+      "score": "600",
+      "person": "夏の白熊"
     },
     {
       "id": 101,
@@ -9014,6 +9279,11 @@
       "id": 105,
       "score": "800",
       "person": "DK"
+    },
+    {
+      "id": 105,
+      "score": "500",
+      "person": "DJ case"
     },
     {
       "id": 105,
@@ -9321,6 +9591,16 @@
       "person": "LUXURY♪"
     },
     {
+      "id": 107,
+      "score": "934",
+      "person": "Sound piercer"
+    },
+    {
+      "id": 107,
+      "score": "900",
+      "person": "夏の白熊"
+    },
+    {
       "id": 108,
       "score": "895",
       "person": "DK"
@@ -9602,8 +9882,23 @@
     },
     {
       "id": 114,
+      "score": "990",
+      "person": "Xile"
+    },
+    {
+      "id": 114,
       "score": "910",
       "person": "DK"
+    },
+    {
+      "id": 114,
+      "score": "990",
+      "person": "izeiru"
+    },
+    {
+      "id": 114,
+      "score": "950",
+      "person": "QaraBox"
     },
     {
       "id": 114,
@@ -9739,6 +10034,11 @@
       "id": 115,
       "score": "900",
       "person": "Mallow♪"
+    },
+    {
+      "id": 115,
+      "score": "850",
+      "person": "izeiru"
     },
     {
       "id": 115,
@@ -10112,6 +10412,11 @@
     },
     {
       "id": 120,
+      "score": "930",
+      "person": "Exsy"
+    },
+    {
+      "id": 120,
       "score": "800",
       "person": "kujou"
     },
@@ -10267,6 +10572,11 @@
     },
     {
       "id": 123,
+      "score": "1000",
+      "person": "Xile"
+    },
+    {
+      "id": 123,
       "score": "985",
       "person": "screw"
     },
@@ -10344,6 +10654,16 @@
       "id": 123,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 123,
+      "score": "980",
+      "person": "QaraBox"
+    },
+    {
+      "id": 123,
+      "score": "960",
+      "person": "namo"
     },
     {
       "id": 123,
@@ -10627,6 +10947,11 @@
     },
     {
       "id": 127,
+      "score": "940",
+      "person": "Exsy"
+    },
+    {
+      "id": 127,
       "score": "600",
       "person": "AYhaz"
     },
@@ -10769,6 +11094,11 @@
       "id": 128,
       "score": "1000",
       "person": "幼女"
+    },
+    {
+      "id": 129,
+      "score": "940",
+      "person": "Xile"
     },
     {
       "id": 129,
@@ -11007,6 +11337,11 @@
     },
     {
       "id": 135,
+      "score": "860",
+      "person": "Setca."
+    },
+    {
+      "id": 135,
       "score": "900",
       "person": "suraita?"
     },
@@ -11134,6 +11469,11 @@
       "id": 138,
       "score": "970",
       "person": "MDR"
+    },
+    {
+      "id": 138,
+      "score": "1000",
+      "person": "neu"
     },
     {
       "id": 138,
@@ -11627,6 +11967,11 @@
     },
     {
       "id": 146,
+      "score": "960",
+      "person": "Exsy"
+    },
+    {
+      "id": 146,
       "score": "950",
       "person": "Micelle"
     },
@@ -11689,6 +12034,11 @@
       "id": 146,
       "score": "1000",
       "person": "幼女"
+    },
+    {
+      "id": 147,
+      "score": "980",
+      "person": "Xile"
     },
     {
       "id": 147,
@@ -11909,6 +12259,11 @@
       "id": 152,
       "score": "830",
       "person": "DK"
+    },
+    {
+      "id": 152,
+      "score": "930",
+      "person": "kooridori"
     },
     {
       "id": 152,
@@ -12139,6 +12494,11 @@
       "id": 157,
       "score": "680",
       "person": "DK"
+    },
+    {
+      "id": 157,
+      "score": "870",
+      "person": "Exsy"
     },
     {
       "id": 157,
@@ -12387,6 +12747,11 @@
     },
     {
       "id": 163,
+      "score": "1000",
+      "person": "Xile"
+    },
+    {
+      "id": 163,
       "score": "962",
       "person": "This bear"
     },
@@ -12454,6 +12819,21 @@
       "id": 163,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 163,
+      "score": "1000",
+      "person": "FOR1"
+    },
+    {
+      "id": 163,
+      "score": "1000",
+      "person": "QaraBox"
+    },
+    {
+      "id": 163,
+      "score": "1000",
+      "person": "namo"
     },
     {
       "id": 163,
@@ -12887,6 +13267,11 @@
     },
     {
       "id": 169,
+      "score": "950",
+      "person": "そーり"
+    },
+    {
+      "id": 169,
       "score": "900",
       "person": "suraita?"
     },
@@ -12939,6 +13324,16 @@
       "id": 170,
       "score": "950",
       "person": "DK"
+    },
+    {
+      "id": 170,
+      "score": "930",
+      "person": "QaraBox"
+    },
+    {
+      "id": 170,
+      "score": "1000",
+      "person": "neu"
     },
     {
       "id": 170,
@@ -13244,6 +13639,11 @@
       "id": 176,
       "score": "700",
       "person": "LUXURY♪"
+    },
+    {
+      "id": 176,
+      "score": "897",
+      "person": "Sound piercer"
     },
     {
       "id": 177,
@@ -13707,6 +14107,11 @@
     },
     {
       "id": 187,
+      "score": "860",
+      "person": "Xile"
+    },
+    {
+      "id": 187,
       "score": "950",
       "person": "RepenX"
     },
@@ -13724,6 +14129,16 @@
       "id": 187,
       "score": "890",
       "person": "DK"
+    },
+    {
+      "id": 187,
+      "score": "1000",
+      "person": "bubuy"
+    },
+    {
+      "id": 187,
+      "score": "940",
+      "person": "QaraBox"
     },
     {
       "id": 187,
@@ -13952,6 +14367,11 @@
     },
     {
       "id": 189,
+      "score": "1000",
+      "person": "QaraBox"
+    },
+    {
+      "id": 189,
       "score": "950",
       "person": "screw"
     },
@@ -14084,6 +14504,11 @@
       "id": 191,
       "score": "900",
       "person": "DK"
+    },
+    {
+      "id": 191,
+      "score": "980",
+      "person": "NASA"
     },
     {
       "id": 191,
@@ -14717,6 +15142,11 @@
     },
     {
       "id": 209,
+      "score": "1000",
+      "person": "Xile"
+    },
+    {
+      "id": 209,
       "score": "985",
       "person": "screw"
     },
@@ -14759,6 +15189,16 @@
       "id": 209,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 209,
+      "score": "980",
+      "person": "QaraBox"
+    },
+    {
+      "id": 209,
+      "score": "1000",
+      "person": "neu"
     },
     {
       "id": 209,
@@ -14959,6 +15399,11 @@
       "id": 211,
       "score": "1000",
       "person": "Nametag"
+    },
+    {
+      "id": 211,
+      "score": "1000",
+      "person": "neu"
     },
     {
       "id": 211,
@@ -15269,6 +15714,11 @@
       "id": 218,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 218,
+      "score": "1000",
+      "person": "DJ case"
     },
     {
       "id": 218,
@@ -15587,6 +16037,26 @@
     },
     {
       "id": 223,
+      "score": "950",
+      "person": "B_Rather"
+    },
+    {
+      "id": 223,
+      "score": "1000",
+      "person": "QaraBox"
+    },
+    {
+      "id": 223,
+      "score": "1000",
+      "person": "DJ case"
+    },
+    {
+      "id": 223,
+      "score": "999",
+      "person": "namo"
+    },
+    {
+      "id": 223,
       "score": "1000",
       "person": "a"
     },
@@ -15837,6 +16307,11 @@
     },
     {
       "id": 227,
+      "score": "820",
+      "person": "Setca."
+    },
+    {
+      "id": 227,
       "score": "850",
       "person": "Black"
     },
@@ -16049,6 +16524,11 @@
       "id": 233,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 233,
+      "score": "970",
+      "person": "QaraBox"
     },
     {
       "id": 233,
@@ -16313,6 +16793,11 @@
     {
       "id": 237,
       "score": "950",
+      "person": "60241"
+    },
+    {
+      "id": 237,
+      "score": "950",
       "person": "Micelle"
     },
     {
@@ -16414,6 +16899,21 @@
       "id": 238,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 238,
+      "score": "975",
+      "person": "夏の白熊"
+    },
+    {
+      "id": 238,
+      "score": "600",
+      "person": "QaraBox"
+    },
+    {
+      "id": 238,
+      "score": "1000",
+      "person": "neu"
     },
     {
       "id": 238,
@@ -16932,6 +17432,11 @@
     },
     {
       "id": 249,
+      "score": "1000",
+      "person": "neu"
+    },
+    {
+      "id": 249,
       "score": "900",
       "person": "Micelle"
     },
@@ -17099,6 +17604,11 @@
       "id": 250,
       "score": "600",
       "person": "LUXURY♪"
+    },
+    {
+      "id": 250,
+      "score": "750",
+      "person": "AYhaz"
     },
     {
       "id": 251,
@@ -17478,6 +17988,11 @@
     {
       "id": 258,
       "score": "950",
+      "person": "60241"
+    },
+    {
+      "id": 258,
+      "score": "950",
       "person": "Micelle"
     },
     {
@@ -17597,6 +18112,11 @@
     },
     {
       "id": 262,
+      "score": "900",
+      "person": "kooridori"
+    },
+    {
+      "id": 262,
       "score": "930",
       "person": "Lian"
     },
@@ -17644,6 +18164,11 @@
       "id": 264,
       "score": "800",
       "person": "DK"
+    },
+    {
+      "id": 264,
+      "score": "935",
+      "person": "kooridori"
     },
     {
       "id": 264,
@@ -18187,6 +18712,16 @@
     },
     {
       "id": 276,
+      "score": "990",
+      "person": "QaraBox"
+    },
+    {
+      "id": 276,
+      "score": "1000",
+      "person": "neu"
+    },
+    {
+      "id": 276,
       "score": "1000",
       "person": "Saga"
     },
@@ -18467,6 +19002,11 @@
     },
     {
       "id": 278,
+      "score": "850",
+      "person": "kujou"
+    },
+    {
+      "id": 278,
       "score": "970",
       "person": "tolz"
     },
@@ -18504,6 +19044,11 @@
       "id": 279,
       "score": "950",
       "person": "DK"
+    },
+    {
+      "id": 279,
+      "score": "950",
+      "person": "夏の白熊"
     },
     {
       "id": 279,
@@ -18637,6 +19182,11 @@
     },
     {
       "id": 282,
+      "score": "101",
+      "person": "kujou"
+    },
+    {
+      "id": 282,
       "score": "100",
       "person": "EPIMATA"
     },
@@ -18693,6 +19243,11 @@
     {
       "id": 284,
       "score": "1000",
+      "person": "Xile"
+    },
+    {
+      "id": 284,
+      "score": "1000",
       "person": "ksh0739"
     },
     {
@@ -18714,6 +19269,11 @@
       "id": 284,
       "score": "940",
       "person": "DK"
+    },
+    {
+      "id": 284,
+      "score": "1000",
+      "person": "neu"
     },
     {
       "id": 284,
@@ -18907,6 +19467,11 @@
     },
     {
       "id": 287,
+      "score": "1000",
+      "person": "Xile"
+    },
+    {
+      "id": 287,
       "score": "990",
       "person": "screw"
     },
@@ -19074,6 +19639,11 @@
       "id": 288,
       "score": "1000",
       "person": "MoonYang"
+    },
+    {
+      "id": 288,
+      "score": "1000",
+      "person": "neu"
     },
     {
       "id": 288,
@@ -19437,6 +20007,11 @@
     },
     {
       "id": 301,
+      "score": "600",
+      "person": "NASA"
+    },
+    {
+      "id": 301,
       "score": "500",
       "person": "Black"
     },
@@ -19497,6 +20072,11 @@
     },
     {
       "id": 304,
+      "score": "990",
+      "person": "NASA"
+    },
+    {
+      "id": 304,
       "score": "1000",
       "person": "hugepulse"
     },
@@ -19524,6 +20104,11 @@
       "id": 304,
       "score": "1000",
       "person": "ANKAKE"
+    },
+    {
+      "id": 305,
+      "score": "700",
+      "person": "NASA"
     },
     {
       "id": 305,
@@ -19917,6 +20502,11 @@
     },
     {
       "id": 321,
+      "score": "800",
+      "person": "NASA"
+    },
+    {
+      "id": 321,
       "score": "840",
       "person": "DK"
     },
@@ -20059,6 +20649,16 @@
       "id": 324,
       "score": "875",
       "person": "DK"
+    },
+    {
+      "id": 324,
+      "score": "977",
+      "person": "NASA"
+    },
+    {
+      "id": 324,
+      "score": "990",
+      "person": "Xile"
     },
     {
       "id": 324,
@@ -20257,6 +20857,11 @@
     },
     {
       "id": 330,
+      "score": "1000",
+      "person": "neu"
+    },
+    {
+      "id": 330,
       "score": "970",
       "person": "namo"
     },
@@ -20304,6 +20909,11 @@
       "id": 331,
       "score": "850",
       "person": "DK"
+    },
+    {
+      "id": 331,
+      "score": "940",
+      "person": "NASA"
     },
     {
       "id": 331,
@@ -20432,6 +21042,11 @@
     },
     {
       "id": 335,
+      "score": "850",
+      "person": "NASA"
+    },
+    {
+      "id": 335,
       "score": "500",
       "person": "LUXURY♪"
     },
@@ -20532,6 +21147,11 @@
     },
     {
       "id": 340,
+      "score": "900",
+      "person": "夏の白熊"
+    },
+    {
+      "id": 340,
       "score": "1000",
       "person": "幼女"
     },
@@ -20584,6 +21204,11 @@
       "id": 344,
       "score": "900",
       "person": "DK"
+    },
+    {
+      "id": 344,
+      "score": "960",
+      "person": "NASA"
     },
     {
       "id": 344,
