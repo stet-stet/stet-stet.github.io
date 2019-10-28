@@ -50,6 +50,7 @@
                 <td>id</td>
                 <td>score</td>
                 <td>person</td>
+                <td>hash</td>
             </tr>
         </table>
     </body>
@@ -83,6 +84,8 @@
             crit.person = function(a,b){
                 if(a["person"]>b["person"]) return ord;
                 else if(a["person"]<b["person"]) return -ord;
+                else if(a["hash"]>b["hash"]) return ord;
+                else if(a["hash"]<b["hash"]) return -ord;
                 else return -3;
             }
             crit.id = function(a,b){
@@ -114,12 +117,12 @@
             document.getElementById("total-hits").innerText = `Total hits: ${stuff.length}`
             var table = document.getElementById("the-data")
             while(table.firstChild){table.removeChild(table.firstChild);}
-            table.innerHTML = "<tr><td>id</td><td>score</td><td>person</td></tr>";
+            table.innerHTML = "<tr><td>id</td><td>score</td><td>person</td><td>hash</td></tr>";
             for(let i=0;/*i<800 &&*/i < stuff.length;++i){
                 let now = stuff[i];
                 let trtr = document.createElement("tr");
-                let asdf = ["id","score","person"];
-                for(let j=0;j<3;++j){
+                let asdf = ["id","score","person", "hash"];
+                for(let j=0;j<asdf.length;++j){
                     let td = document.createElement('td');
                     if(j>0)
                         td.innerText = now[asdf[j]];
