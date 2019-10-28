@@ -43,7 +43,8 @@ async function scrap(number,page){
     let votes = await page.$$eval('.toggle-bg .col_one_third',votes=>{
         return votes.map(vote=>[
                 vote.querySelector('.i-alt').innerText.trim(),
-                vote.querySelector('h4').innerText.trim()
+                vote.querySelector('h4').innerText.trim(),
+                vote.innerHTML.match(/h4>\((.*)\)<p/)[1]
             ]);
     });
     votes = votes.map(a=>{
@@ -51,6 +52,7 @@ async function scrap(number,page){
             id: number,
             score: a[0],
             person: a[1],
+            hash: a[2]
         }
     });
     
@@ -58,7 +60,8 @@ async function scrap(number,page){
         const shortimpre = sposts.filter(a=>Array.from(a.getElementsByClassName('points_oneline')).length>0);
         return shortimpre.map(imp=>[
                 imp.getElementsByClassName('points_oneline')[0].innerText.trim(),
-                imp.querySelector('.entry-title strong').innerText.trim()
+                imp.querySelector('.entry-title strong').innerText.trim(),
+                imp.innerHTML.match(/"color:#ccc">\((.*)\)<\/span>/)[1]
             ]);
     });
     shorts=shorts.map(a=>{
@@ -66,6 +69,7 @@ async function scrap(number,page){
             id: number,
             score: a[0],
             person: a[1],
+            hash: a[2]
         }
     });
 
@@ -73,7 +77,8 @@ async function scrap(number,page){
         const longimpre = sposts.filter(a=>Array.from(a.getElementsByClassName('points_normal')).length>0);
         return longimpre.map(imp=>[
                 imp.getElementsByClassName('points_normal')[0].innerText.trim(),
-                imp.querySelector('.entry-title strong').innerText.trim()
+                imp.querySelector('.entry-title strong').innerText.trim(),
+                imp.innerHTML.match(/"color:#ccc">\((.*)\)<\/span>/)[1]
             ]);
     })
     longs=longs.map(a=>{
@@ -81,6 +86,7 @@ async function scrap(number,page){
             id: number,
             score: a[0],
             person: a[1],
+            hash: a[2]
         }
     });
     //console.log(votes);
@@ -90,7 +96,7 @@ async function scrap(number,page){
 }
 
 async function rebuild_database(page){
-    let db=[];
+    let db=[],empty_entries=[];
     const id_name = await get_bms_names(page);
     const list = id_name.map(a=>Number(a[0]));
     const entries = list.length;
@@ -101,11 +107,13 @@ async function rebuild_database(page){
         // blocking delay 3000ms
         const a = await scrap(list[i],page);
         //console.log(a);
+        if(a.length===0) empty_entries.push(list[i]);
         db = db.concat(a);
     }
-    var data = {};
     //console.log(db);
+    var data = {};
     data.table = db;
+    data.empty = empty_entries;
     return data;
 }
 
