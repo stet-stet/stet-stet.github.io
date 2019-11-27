@@ -2,6 +2,12 @@
   "table": [
     {
       "id": 1,
+      "score": "900",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
+    },
+    {
+      "id": 1,
       "score": "995",
       "person": "Rlyo",
       "hash": "NiKVkRmg6o/dOb6v.YKR"
@@ -275,6 +281,12 @@
       "score": "960",
       "person": "SOMON",
       "hash": "EvzWGDR3lA0YUxpjj.JP"
+    },
+    {
+      "id": 2,
+      "score": "930",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 2,
@@ -824,6 +836,12 @@
     },
     {
       "id": 4,
+      "score": "970",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
+    },
+    {
+      "id": 4,
       "score": "1000",
       "person": "DD",
       "hash": "E70b28UoTbO8keuwcQUS"
@@ -1325,6 +1343,12 @@
       "score": "1000",
       "person": "SOMON",
       "hash": "EvzWGDR3lA0YUxpjj.JP"
+    },
+    {
+      "id": 5,
+      "score": "900",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 5,
@@ -1925,6 +1949,12 @@
       "score": "895",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 6,
+      "score": "800",
+      "person": "SANY",
+      "hash": "4ZMxtpftuDtu9iWNk2JP"
     },
     {
       "id": 6,
@@ -5156,6 +5186,12 @@
     },
     {
       "id": 14,
+      "score": "880",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
+    },
+    {
+      "id": 14,
       "score": "766",
       "person": "Salt",
       "hash": "aEwq8PTu3lj3dMLBXsKR"
@@ -5411,6 +5447,12 @@
       "score": "840",
       "person": "Mallow♪",
       "hash": "E0vJYpgRsGaY72WwhQJP"
+    },
+    {
+      "id": 15,
+      "score": "940",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 15,
@@ -7280,6 +7322,18 @@
     },
     {
       "id": 21,
+      "score": "999",
+      "person": "kujou",
+      "hash": "pzKrIF6hfBKT8o9v1gJP"
+    },
+    {
+      "id": 21,
+      "score": "1000",
+      "person": "LOSET",
+      "hash": "rDyAYN0od9hQ1FFl8gKR"
+    },
+    {
+      "id": 21,
       "score": "970",
       "person": "nekomimi_STRaw",
       "hash": "I9ZSjHZ7g.l2FUhuOMJP"
@@ -7931,6 +7985,12 @@
       "score": "955",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 22,
+      "score": "820",
+      "person": "SANY",
+      "hash": "4ZMxtpftuDtu9iWNk2JP"
     },
     {
       "id": 22,
@@ -8993,6 +9053,12 @@
       "score": "950",
       "person": "EPIMATA",
       "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 25,
+      "score": "960",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
     },
     {
       "id": 25,
@@ -11126,6 +11192,12 @@
     },
     {
       "id": 34,
+      "score": "900",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 34,
       "score": "909",
       "person": "anvil",
       "hash": "BI2SszTzHy7KkmKPiIKR"
@@ -11273,6 +11345,12 @@
       "score": "600",
       "person": "LUXURY♪",
       "hash": "o5wqJ8av0teK8irxNAKR"
+    },
+    {
+      "id": 35,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
     },
     {
       "id": 35,
@@ -11612,6 +11690,12 @@
     },
     {
       "id": 37,
+      "score": "988",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
+    },
+    {
+      "id": 37,
       "score": "757",
       "person": "Salt",
       "hash": "aEwq8PTu3lj3dMLBXsKR"
@@ -11801,6 +11885,12 @@
       "score": "700",
       "person": "LUXURY♪",
       "hash": "o5wqJ8av0teK8irxNAKR"
+    },
+    {
+      "id": 37,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
     },
     {
       "id": 37,
@@ -12038,6 +12128,12 @@
     },
     {
       "id": 38,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 38,
       "score": "950",
       "person": "portion",
       "hash": "Uv4bcI1C.5eVMvVLg6JP"
@@ -12215,6 +12311,12 @@
       "score": "960",
       "person": "珈琲王子",
       "hash": "cfyhBTjyoxBQur0dScJP"
+    },
+    {
+      "id": 39,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
     },
     {
       "id": 39,
@@ -13343,6 +13445,12 @@
       "score": "850",
       "person": "Black",
       "hash": "4EnJtYUUSpuLeMC9X6JP"
+    },
+    {
+      "id": 45,
+      "score": "974",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
     },
     {
       "id": 45,
@@ -15200,6 +15308,18 @@
     },
     {
       "id": 54,
+      "score": "970",
+      "person": "jhfdlkjd",
+      "hash": "jfa5jzCqwJURcfKDtUCN"
+    },
+    {
+      "id": 54,
+      "score": "925",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 54,
       "score": "1000",
       "person": "暮狛",
       "hash": "8UZBTvNMCXXkZL6P92US"
@@ -16868,6 +16988,12 @@
     },
     {
       "id": 63,
+      "score": "990",
+      "person": "Rlyo",
+      "hash": "NiKVkRmg6o/dOb6v.YKR"
+    },
+    {
+      "id": 63,
       "score": "980",
       "person": "flicknote",
       "hash": "ldnNiv92RSJLIsIsD.TH"
@@ -17201,6 +17327,12 @@
       "score": "885",
       "person": "Sound piercer",
       "hash": "jml3KIZGb7uaNm7xg2KR"
+    },
+    {
+      "id": 65,
+      "score": "990",
+      "person": "Rlyo",
+      "hash": "NiKVkRmg6o/dOb6v.YKR"
     },
     {
       "id": 65,
@@ -18671,6 +18803,12 @@
       "score": "950",
       "person": "BBBB",
       "hash": "ZVD5fNF9aJMz54DYxoJP"
+    },
+    {
+      "id": 72,
+      "score": "966",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
     },
     {
       "id": 72,
@@ -20258,6 +20396,12 @@
     },
     {
       "id": 80,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 80,
       "score": "930",
       "person": "わっふゑ",
       "hash": "kStXrKW19jY.Kcf5zoJP"
@@ -20840,6 +20984,12 @@
     },
     {
       "id": 83,
+      "score": "910",
+      "person": "FFCL",
+      "hash": "0vUbNyG2EmCe7ceD.2MO"
+    },
+    {
+      "id": 83,
       "score": "630",
       "person": "49",
       "hash": "oiS7qSqN.FQH.k1uEMJP"
@@ -21335,6 +21485,12 @@
       "score": "1000",
       "person": "幼女",
       "hash": "knKxtWElAb31e7rODIJP"
+    },
+    {
+      "id": 86,
+      "score": "900",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 86,
@@ -23096,6 +23252,12 @@
     },
     {
       "id": 94,
+      "score": "1000",
+      "person": "HAYA",
+      "hash": "2ZOnMPGQADqDtAf7zECN"
+    },
+    {
+      "id": 94,
       "score": "960",
       "person": "STANK!",
       "hash": "RjYdYxDaS3807AZRpsJP"
@@ -23564,6 +23726,12 @@
     },
     {
       "id": 97,
+      "score": "943",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
+    },
+    {
+      "id": 97,
       "score": "733",
       "person": "Salt",
       "hash": "aEwq8PTu3lj3dMLBXsKR"
@@ -23756,6 +23924,12 @@
     },
     {
       "id": 98,
+      "score": "991",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
+    },
+    {
+      "id": 98,
       "score": "1000",
       "person": "Osta",
       "hash": "uk4L7VDtcAS6AfGfWQKR"
@@ -23930,6 +24104,12 @@
     },
     {
       "id": 98,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 98,
       "score": "930",
       "person": "わっふゑ",
       "hash": "kStXrKW19jY.Kcf5zoJP"
@@ -23987,6 +24167,12 @@
       "score": "620",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 99,
+      "score": "820",
+      "person": "りょくちゃくん",
+      "hash": "CTFAiw7m2cG4qxxxKIJP"
     },
     {
       "id": 99,
@@ -24065,6 +24251,12 @@
       "score": "1000",
       "person": "幼女",
       "hash": "1D9jeiMJAb31e7rODIJP"
+    },
+    {
+      "id": 100,
+      "score": "910",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 100,
@@ -26576,6 +26768,12 @@
     },
     {
       "id": 113,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 113,
       "score": "920",
       "person": "Tima",
       "hash": "8Fxbuu52J0OZ/Xk.d2JP"
@@ -26993,6 +27191,12 @@
       "score": "1000",
       "person": "Hyparpax",
       "hash": "PvH2UI9WS37Eak8XzQUS"
+    },
+    {
+      "id": 115,
+      "score": "910",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 115,
@@ -27539,6 +27743,12 @@
       "score": "1000",
       "person": "幼女",
       "hash": "knKxtWElAb31e7rODIJP"
+    },
+    {
+      "id": 117,
+      "score": "980",
+      "person": "Rlyo",
+      "hash": "NiKVkRmg6o/dOb6v.YKR"
     },
     {
       "id": 117,
@@ -29702,6 +29912,12 @@
     },
     {
       "id": 128,
+      "score": "915",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 128,
       "score": "875",
       "person": "suraita?",
       "hash": "xe2l1MukbleWudWeGwCN"
@@ -30152,6 +30368,12 @@
     },
     {
       "id": 132,
+      "score": "1000",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
+    },
+    {
+      "id": 132,
       "score": "770",
       "person": "49",
       "hash": "oiS7qSqN.FQH.k1uEMJP"
@@ -30353,6 +30575,12 @@
       "score": "870",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 134,
+      "score": "970",
+      "person": "jhfdlkjd",
+      "hash": "jfa5jzCqwJURcfKDtUCN"
     },
     {
       "id": 134,
@@ -30899,6 +31127,12 @@
       "score": "950",
       "person": "BBBB",
       "hash": "ZVD5fNF9aJMz54DYxoJP"
+    },
+    {
+      "id": 138,
+      "score": "955",
+      "person": "jhfdlkjd",
+      "hash": "jfa5jzCqwJURcfKDtUCN"
     },
     {
       "id": 138,
@@ -31598,6 +31832,12 @@
     },
     {
       "id": 141,
+      "score": "950",
+      "person": "jhfdlkjd",
+      "hash": "jfa5jzCqwJURcfKDtUCN"
+    },
+    {
+      "id": 141,
       "score": "860",
       "person": "rookie",
       "hash": "uhlscOalfAn78VXmh6HK"
@@ -31811,6 +32051,12 @@
       "score": "999",
       "person": "&◆r6bCMK2z42",
       "hash": "2B1DQukl1fzXTUOo5AKR"
+    },
+    {
+      "id": 142,
+      "score": "950",
+      "person": "jhfdlkjd",
+      "hash": "jfa5jzCqwJURcfKDtUCN"
     },
     {
       "id": 142,
@@ -33429,6 +33675,12 @@
     {
       "id": 152,
       "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 152,
+      "score": "1000",
       "person": "幼女",
       "hash": "1D9jeiMJAb31e7rODIJP"
     },
@@ -34970,6 +35222,12 @@
     },
     {
       "id": 163,
+      "score": "980",
+      "person": "kujou",
+      "hash": "pzKrIF6hfBKT8o9v1gJP"
+    },
+    {
+      "id": 163,
       "score": "1000",
       "person": "RiraN",
       "hash": "Gm4XLRYbWLPIavOmFUKR"
@@ -36110,6 +36368,12 @@
     },
     {
       "id": 169,
+      "score": "980",
+      "person": "portion",
+      "hash": "Uv4bcI1C.5eVMvVLg6JP"
+    },
+    {
+      "id": 169,
       "score": "750",
       "person": "49",
       "hash": "oiS7qSqN.FQH.k1uEMJP"
@@ -36725,6 +36989,12 @@
       "score": "860",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 172,
+      "score": "895",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
     },
     {
       "id": 172,
@@ -40418,6 +40688,18 @@
     },
     {
       "id": 196,
+      "score": "955",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
+    },
+    {
+      "id": 196,
+      "score": "750",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 196,
       "score": "830",
       "person": "portion",
       "hash": "Uv4bcI1C.5eVMvVLg6JP"
@@ -41222,6 +41504,12 @@
     },
     {
       "id": 204,
+      "score": "950",
+      "person": "Rlyo",
+      "hash": "NiKVkRmg6o/dOb6v.YKR"
+    },
+    {
+      "id": 204,
       "score": "1000",
       "person": "miro",
       "hash": "CCInkONw.GpW8gHo5YJP"
@@ -41429,6 +41717,12 @@
       "score": "125",
       "person": "EPIMATA",
       "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 206,
+      "score": "960",
+      "person": "Rlyo",
+      "hash": "NiKVkRmg6o/dOb6v.YKR"
     },
     {
       "id": 206,
@@ -43370,6 +43664,12 @@
     },
     {
       "id": 216,
+      "score": "840",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
+    },
+    {
+      "id": 216,
       "score": "719",
       "person": "空読無 白眼◆nG/wFSQUcqfx",
       "hash": "05kH67yW02iN388zzYJP"
@@ -43856,6 +44156,12 @@
     },
     {
       "id": 219,
+      "score": "970",
+      "person": "Rlyo",
+      "hash": "NiKVkRmg6o/dOb6v.YKR"
+    },
+    {
+      "id": 219,
       "score": "940",
       "person": "rookie",
       "hash": "uhlscOalfAn78VXmh6HK"
@@ -44027,6 +44333,12 @@
       "score": "970",
       "person": "EPIMATA",
       "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 219,
+      "score": "900",
+      "person": "夏の白熊",
+      "hash": "SXFd66mk/1XJxSNo3EJP"
     },
     {
       "id": 219,
@@ -44303,6 +44615,12 @@
       "score": "920",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 222,
+      "score": "950",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
     },
     {
       "id": 222,
@@ -45866,6 +46184,12 @@
     },
     {
       "id": 231,
+      "score": "945",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 231,
       "score": "1000",
       "person": "池田哲次",
       "hash": "2SE6wy3p/vYcsZnMEcJP"
@@ -46139,6 +46463,12 @@
       "score": "1000",
       "person": "MoonYang",
       "hash": "NoBeHUoM.ib7G6FMZkKR"
+    },
+    {
+      "id": 233,
+      "score": "975",
+      "person": "Osta",
+      "hash": "uk4L7VDtcAS6AfGfWQKR"
     },
     {
       "id": 233,
@@ -47804,6 +48134,12 @@
     },
     {
       "id": 240,
+      "score": "885",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 240,
       "score": "970",
       "person": "syuuroku",
       "hash": "ZZTAR0bBbfNGghzgesJP"
@@ -48059,6 +48395,12 @@
       "score": "1000",
       "person": "幼女",
       "hash": "1D9jeiMJAb31e7rODIJP"
+    },
+    {
+      "id": 243,
+      "score": "900",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 243,
@@ -48464,6 +48806,12 @@
     },
     {
       "id": 245,
+      "score": "800",
+      "person": "夏の白熊",
+      "hash": "SXFd66mk/1XJxSNo3EJP"
+    },
+    {
+      "id": 245,
       "score": "1000",
       "person": "幼女",
       "hash": "1D9jeiMJAb31e7rODIJP"
@@ -48686,6 +49034,12 @@
     },
     {
       "id": 248,
+      "score": "900",
+      "person": "夏の白熊",
+      "hash": "SXFd66mk/1XJxSNo3EJP"
+    },
+    {
+      "id": 248,
       "score": "850",
       "person": "portion",
       "hash": "Uv4bcI1C.5eVMvVLg6JP"
@@ -48827,6 +49181,12 @@
       "score": "1000",
       "person": "piombo",
       "hash": "AYTJQMsaJI4hzG5tMgUS"
+    },
+    {
+      "id": 249,
+      "score": "920",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 249,
@@ -49193,6 +49553,12 @@
       "score": "835",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 250,
+      "score": "850",
+      "person": "夏の白熊",
+      "hash": "SXFd66mk/1XJxSNo3EJP"
     },
     {
       "id": 250,
@@ -49565,6 +49931,12 @@
       "score": "600",
       "person": "LUXURY♪",
       "hash": "o5wqJ8av0teK8irxNAKR"
+    },
+    {
+      "id": 253,
+      "score": "850",
+      "person": "夏の白熊",
+      "hash": "SXFd66mk/1XJxSNo3EJP"
     },
     {
       "id": 253,
@@ -49952,6 +50324,12 @@
     },
     {
       "id": 257,
+      "score": "910",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
+    },
+    {
+      "id": 257,
       "score": "960",
       "person": "takosuke",
       "hash": "CP8bbUHFtvbHMrZ1JEJP"
@@ -49997,6 +50375,12 @@
       "score": "930",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 257,
+      "score": "1000",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
     },
     {
       "id": 257,
@@ -50213,6 +50597,12 @@
       "score": "1000",
       "person": "みすみ",
       "hash": "MxhW3WIdnqtLbvbPFEJP"
+    },
+    {
+      "id": 257,
+      "score": "1000",
+      "person": "portion",
+      "hash": "Uv4bcI1C.5eVMvVLg6JP"
     },
     {
       "id": 257,
@@ -50834,6 +51224,12 @@
     },
     {
       "id": 262,
+      "score": "880",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 262,
       "score": "950",
       "person": "portion",
       "hash": "Uv4bcI1C.5eVMvVLg6JP"
@@ -51167,6 +51563,12 @@
       "score": "910",
       "person": "NASA",
       "hash": "AiNgcK8HP1mfJs6JjEJP"
+    },
+    {
+      "id": 264,
+      "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
     },
     {
       "id": 264,
@@ -51944,6 +52346,12 @@
     },
     {
       "id": 270,
+      "score": "980",
+      "person": "portion",
+      "hash": "Uv4bcI1C.5eVMvVLg6JP"
+    },
+    {
+      "id": 270,
       "score": "1000",
       "person": "SUZUKAZEΛ",
       "hash": "SDbhfXSo5cicl2tacQCA"
@@ -52208,6 +52616,12 @@
     },
     {
       "id": 272,
+      "score": "930",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 272,
       "score": "870",
       "person": "portion",
       "hash": "Uv4bcI1C.5eVMvVLg6JP"
@@ -52283,6 +52697,12 @@
       "score": "950",
       "person": "りゅー(Steяrite)",
       "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 273,
+      "score": "880",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 273,
@@ -53075,6 +53495,12 @@
       "score": "1000",
       "person": "MoonYang",
       "hash": "NoBeHUoM.ib7G6FMZkKR"
+    },
+    {
+      "id": 276,
+      "score": "924",
+      "person": "FFCL",
+      "hash": "0vUbNyG2EmCe7ceD.2MO"
     },
     {
       "id": 276,
@@ -54404,6 +54830,12 @@
     },
     {
       "id": 281,
+      "score": "920",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
+    },
+    {
+      "id": 281,
       "score": "930",
       "person": "FFCL",
       "hash": "0vUbNyG2nyTtB/uvPIMO"
@@ -54848,6 +55280,12 @@
     },
     {
       "id": 284,
+      "score": "1000",
+      "person": "Rlyo",
+      "hash": "NiKVkRmg6o/dOb6v.YKR"
+    },
+    {
+      "id": 284,
       "score": "956",
       "person": "空読無 白眼◆nG/wFSQUcqfx",
       "hash": "05kH67yW02iN388zzYJP"
@@ -55271,6 +55709,12 @@
       "score": "965",
       "person": "EPIMATA",
       "hash": "R1hAqSiBHghG4kFO02KR"
+    },
+    {
+      "id": 285,
+      "score": "985",
+      "person": "TaW",
+      "hash": "jsNFI3NGNY1xUyRiscJP"
     },
     {
       "id": 285,
@@ -55892,6 +56336,12 @@
     },
     {
       "id": 288,
+      "score": "1000",
+      "person": "Xemmy",
+      "hash": "dSlotM4yW8vf3n6P6sMY"
+    },
+    {
+      "id": 288,
       "score": "999",
       "person": "NPC",
       "hash": "JMSCiPJwDq54.UPDxcCN"
@@ -55997,6 +56447,12 @@
       "score": "1000",
       "person": "MoonYang",
       "hash": "NoBeHUoM.ib7G6FMZkKR"
+    },
+    {
+      "id": 288,
+      "score": "990",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 288,
@@ -56558,6 +57014,12 @@
     },
     {
       "id": 290,
+      "score": "980",
+      "person": "TaW",
+      "hash": "jsNFI3NGNY1xUyRiscJP"
+    },
+    {
+      "id": 290,
       "score": "1000",
       "person": "りゅー(Steяrite)",
       "hash": "67Alyid3BMTVQq7LYMJP"
@@ -56996,6 +57458,12 @@
     },
     {
       "id": 297,
+      "score": "999",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
+    },
+    {
+      "id": 297,
       "score": "950",
       "person": "暮狛",
       "hash": "8UZBTvNMHyBnE8Q5VsUS"
@@ -57119,6 +57587,12 @@
       "score": "835",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 298,
+      "score": "690",
+      "person": "EPIMATA",
+      "hash": "R1hAqSiBHghG4kFO02KR"
     },
     {
       "id": 298,
@@ -57545,6 +58019,12 @@
       "score": "800",
       "person": "DK",
       "hash": "KVEqZKsoQVLq3.Rl8wKR"
+    },
+    {
+      "id": 304,
+      "score": "810",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
     },
     {
       "id": 304,
@@ -59463,6 +59943,12 @@
     {
       "id": 321,
       "score": "1000",
+      "person": "りゅー(Steяrite)",
+      "hash": "67Alyid3BMTVQq7LYMJP"
+    },
+    {
+      "id": 321,
+      "score": "1000",
       "person": "幼女",
       "hash": "1D9jeiMJAb31e7rODIJP"
     },
@@ -59933,6 +60419,12 @@
       "score": "700",
       "person": "LUXURY♪",
       "hash": "o5wqJ8av0teK8irxNAKR"
+    },
+    {
+      "id": 324,
+      "score": "850",
+      "person": "夏の白熊",
+      "hash": "SXFd66mk/1XJxSNo3EJP"
     },
     {
       "id": 324,
@@ -62990,6 +63482,12 @@
     },
     {
       "id": 348,
+      "score": "900",
+      "person": "rookie",
+      "hash": "uhlscOalfAn78VXmh6HK"
+    },
+    {
+      "id": 348,
       "score": "846",
       "person": "空読無 白眼◆nG/wFSQUcqfx",
       "hash": "05kH67yW02iN388zzYJP"
@@ -63524,6 +64022,12 @@
     },
     {
       "id": 354,
+      "score": "999",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
+    },
+    {
+      "id": 354,
       "score": "985",
       "person": "kairos22",
       "hash": "Bqrl4KNe/MebGRdMacUS"
@@ -63659,6 +64163,12 @@
       "score": "940",
       "person": "STANK!",
       "hash": "RjYdYxDaS3807AZRpsJP"
+    },
+    {
+      "id": 355,
+      "score": "994",
+      "person": "NPC",
+      "hash": "JMSCiPJwDq54.UPDxcCN"
     },
     {
       "id": 355,
