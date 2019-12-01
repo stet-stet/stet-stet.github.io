@@ -9,6 +9,4 @@ def doit():
   subprocess.call("git push origin master",shell=True)
 
 if __name__=="__main__":
-  while True:
-    doit()
-    sleep(14400)
+  doit()
