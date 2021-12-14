@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BOFXVII impression help page(unofficial)</title>
+    </head>
+    <body>
+        <p id="status">
+            loading...please wait
+        </p>
+        <h2 id="dosth"> BOFXV impression help page(unofficial) </h2> 
+        <h3> Instructions</h3>
+        <p>1. Input the name of the player you would like to look up.</p>
+        <p>2. Press the button </p>
+        <p>3. All* judges(with scores) made by that person will show up! </p>
+        <h3> *Disclaimer</h3>
+        <p> Data below are gathered by iterating all pages(~500) - this takes 1~2hr on server. </p>
+        <p> This means that data is not gathered simultaneously. </p>
+        <p> No pagination as of yet. Sorry :/</p>
+        <p style="font-size:8pt"> Note: some impressions may be missing. Unfortunately there is nothing I can do about this :( Maybe I should really get a server</p>
+        <p style="font-size:8pt">The data is constantly being re-updated about every six hours.</p>
+        <p style="font-size:8pt">viewing/searching "User hash" will also be added shortly.</p>
+        <p style="font-size:8pt">suggestions, problems, takedowns etc to <a href="https://twitter.com/QyubeySan">@QyubeySan</a>. Please and thank you.</p>
+        <h2>Search </h2>
+        <p> Sort by: </p>
+        <select id="criterion">
+            <option value="score">score</option>
+            <option value="id">bms id</option>
+            <option value="person">player's name</option>
+        </select>
+        <select id="order">
+            <option value="forward">forward</option>
+            <option value="reverse">reverse</option>
+        </select>
+        <input type="checkbox" id="exactmatch">exact matches only</checkbox>
+        <p> <input type="text" id="query"> <button onclick=update()>Search!</button> </p>
+        <h3 id="total-hits"></h3>
+        <h3>stats</h3>
+        <table>
+            <tr>
+                <td>lowest</td>
+                <td>20%</td>
+                <td>40%</td>
+                <td>60%</td>
+                <td>80%</td>
+                <td>top</td>
+            </tr>         
+            <tr id="statistics">
+            </tr>   
+        </table>
+        <h3>search results</h3>
+        <table id="the-data">
+            <tr>
+                <td>id</td>
+                <td>score</td>
+                <td>person</td>
+                <td>hash</td>
+            </tr>
+        </table>
+    </body>
+    <script>
+        var data=['not','yet'];
+        function callback(text){
+            let s = document.getElementById('status');
+            s.innerText = ""
+            data = JSON.parse(text)["table"];
+            console.log(data.length);
+        }
+        function update(){
+            let queryString = document.getElementById("query").value;
+            let criteria = document.getElementById("criterion").value; //id, score, person
+            let order = document.getElementById("order").value; //forward, backward
+            let ord = order==="forward" ? 1 : -1;
+            let exactmatch = document.getElementById("exactmatch").checked;
+            console.log(order);
+            console.log(criteria);
+            console.log(queryString);
+            let filtered;
+            if(!exactmatch) filtered = data.filter(a=>{return a["person"].toLowerCase().search(queryString.toLowerCase())>=0;})
+            else filtered = data.filter(a=>{return a["person"]==queryString});
+            console.log(filtered.length);
+            let crit = {}
+            crit.score = function(a,b){
+                if(Number(a["score"])>Number(b["score"])) return ord;
+                else if(Number(a["score"])<Number(b["score"])) return -ord;
+                else return -3;
+            }
+            crit.person = function(a,b){
+                if(a["person"]>b["person"]) return ord;
+                else if(a["person"]<b["person"]) return -ord;
+                else if(a["hash"]>b["hash"]) return ord;
+                else if(a["hash"]<b["hash"]) return -ord;
+                else return -3;
+            }
+            crit.id = function(a,b){
+                if(a["id"]>b["id"]) return ord;
+                else if(a["id"]<b["id"]) return -ord;
+                else return -3;
+            }
+            filtered = filtered.sort(function(a,b){
+                if(crit[criteria](a,b)!==-3) return crit[criteria](a,b);
+                else if(crit["person"](a,b)!==-3) return crit["person"](a,b);
+                else if(crit["id"](a,b)!==-3) return crit["id"](a,b);
+                else return crit["score"](a,b);
+            });
+            theTable(filtered);
+            stats(filtered.sort(crit.score));
+        }
+        function stats(stuff){
+            let stat = document.getElementById("statistics");
+            if(stuff.length>1){
+                while(stat.firstChild) stat.removeChild(stat.firstChild);
+                let factor = 5; let list_of_scores = [];
+                for(let i=0;i<=factor;++i){
+                    let ind = Math.floor((stuff.length-1)*i/factor);
+                    stat.innerHTML += `<td> ${stuff[ind].score} </td>`;
+                }                
+            }
+        }
+        function theTable(stuff){
+            document.getElementById("total-hits").innerText = `Total hits: ${stuff.length}`
+            var table = document.getElementById("the-data")
+            while(table.firstChild){table.removeChild(table.firstChild);}
+            table.innerHTML = "<tr><td>id</td><td>score</td><td>person</td><td>hash</td></tr>";
+            for(let i=0;/*i<800 &&*/i < stuff.length;++i){
+                let now = stuff[i];
+                let trtr = document.createElement("tr");
+                let asdf = ["id","score","person", "hash"];
+                for(let j=0;j<asdf.length;++j){
+                    let td = document.createElement('td');
+                    if(j>0)
+                        td.innerText = now[asdf[j]];
+                    else{
+                        td.innerHTML = `
+                          <a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=${now[asdf[j]]}&event=127">
+                          ${now[asdf[j]]}</a>
+                        `;
+                    }
+                    trtr.appendChild(td);
+                }
+                table.appendChild(trtr);
+            }
+        }
+        function show(){
+            const elem = document.getElementById("dosth");
+            elem.innerText = "hello world!";
+        }
+        (function(){
+            let a = new XMLHttpRequest();
+            a.overrideMimeType('application/json');
+            a.open('GET',"https://stet-stet.github.io/data_bofxvii.json",true);
+            a.onreadystatechange = function(){
+                console.log(a.readyState);
+                console.log(a.status);
+                if(a.readyState===3){
+                    document.getElementById("status").innerText = "almost done...";
+                }
+                if(a.readyState===4 && a.status === 200){
+                    callback(a.responseText);
+                }
+            }
+            a.send();
+        })();
+    </script>
+</html>
