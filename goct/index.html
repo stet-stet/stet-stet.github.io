@@ -6,59 +6,71 @@
 		<title>Beat-Aligned Spectrogram-to-Sequence Generation of Rhythm Game Charts</title>
 	</head>
 
-	<body>
-		<h2><center>Beat-Aligned Spectrogram-to-Sequence Generation of Rhythm-Game Charts</center></h2>
-		<p><center>Jayeon Yi, Sungho Lee, Kyogu Lee</center></p>
-		<p><center>jayeonyi@umich.edu</center></p>
+	<body style="font-family:Georgia">
+		<center><div style="max-width:800px">
+			<h1><center>Beat-Aligned Spectrogram-to-Sequence Generation of Rhythm-Game Charts</center></h1>
+			<p><center>Jayeon Yi, Sungho Lee, Kyogu Lee</center></p>
+			<p><center>jayeonyi@umich.edu</center></p>
 
-		<div><center>
-			<a href="https://github.com/stet-stet/goct_ismir2023">Github</a>
-			<a href="demo/GOCT.pdf" target="_blank">Extended Abstract</a>
-		</center></div>
+			<div><center>
+				<a href="https://github.com/stet-stet/goct_ismir2023">Github</a>
+				<nobr> | </nobr>
+				<a href="demo/GOCT.pdf" target="_blank">Extended Abstract</a>
+			</center></div>
+			<p></p>
+			<div style="width:95%;font-size:1px;line-height:1px;background-color:grey;margin-top:-6px;margin-bottom:10px">.</div>
+			<center>
+			<video width="640" height="360" controls>
+				<source src="demo/demovid.mp4" type="video/mp4">
+				<track src="demo/captions.vtt" label="Subtitles" kind="captions" srclang="en-us" >
+			</video>
+			</center>
 
-		<center>
-		<video width="640" height="360" controls>
-			<source src="demo/demovid.mp4" type="video/mp4">
-			<track src="demo/captions.vtt" label="Subtitles" kind="captions" srclang="en-us" >
-		</video>
-		</center>
+			
 
-		
+			<div style="max-width:600px"><p> 
+				In the heart of "rhythm games" - games where players
+				must perform actions in sync with a piece of music - are
+				"charts", the directives to be given to players. We newly
+				formulate chart generation as a sequence generation task
+				and train a Transformer using a large dataset. We also introduce tempo-informed preprocessing and training procedures, some of which are suggested to be integral for a
+				successful training. Our model is found to outperform the
+				baselines on a large dataset, and is also found to benefit
+				from pretraining and finetuning.
+			</p></div>
 
-		<p>
+			<div style="width:95%;font-size:1px;line-height:1px;background-color:grey;margin-top:-6px;margin-bottom:10px">.</div>
 
-		</p>
+			<h2><center>Inference Examples</center></h2>
 
-		<h2><center>Inference Examples</center></h2>
+			<center>
+			<video width="400" height="300" controls>
+				<source src="examples/yupengchen.mp4" type="video/mp4">
+			</video>
+			</center>
+			<p><center>Yu-Peng Chen @HOYO-MiX - Duel in the Mist (target difficulty: 3.61, result: 4.29)</center></p>
 
-		<center>
-		<video width="400" height="300" controls>
-			<source src="examples/yupengchen.mp4" type="video/mp4">
-		</video>
-		</center>
-		<p><center>Yu-Peng Chen @HOYO-MiX - Duel in the Mist (target difficulty: 3.61, result: 4.29)</center></p>
+			<center>
+			<video width="400" height="300" controls>
+				<source src="examples/katagiri.mp4" type="video/mp4">
+			</video>
+			</center>
+			<p><center>katagiri - Angel's Salad (target difficulty: 2.19, result: 2.29)</center></p>
 
-		<center>
-		<video width="400" height="300" controls>
-			<source src="examples/katagiri.mp4" type="video/mp4">
-		</video>
-		</center>
-		<p><center>katagiri - Angel's Salad (target difficulty: 2.19, result: 2.29)</center></p>
+			<center>
+			<video width="400" height="300" controls>
+				<source src="examples/Aiobahn.mp4" type="video/mp4">
+			</video>
+			</center>
+			<p><center>Aiobahn - I'm here (feat. rionos) (target difficulty: 3.68, result 3.47)</center></p>
 
-		<center>
-		<video width="400" height="300" controls>
-			<source src="examples/Aiobahn.mp4" type="video/mp4">
-		</video>
-		</center>
-		<p><center>Aiobahn - I'm here (feat. rionos) (target difficulty: 3.68, result 3.47)</center></p>
-
-		<center>
-		<video width="450" height="300" controls>
-			<source src="examples/st2.mp4" type="video/mp4">
-		</video>
-		</center>
-		<p><center>PSYQUI - Stepper (side-by-side)</center></p> 
-		<p><center>(target difficulty: 1.86, 2.54, 3.30; result 1.72, 2.42, 3.38)</center></p>
-		
+			<center>
+			<video width="450" height="300" controls>
+				<source src="examples/st2.mp4" type="video/mp4">
+			</video>
+			</center>
+			<p><center>PSYQUI - Stepper (three charts placed side-by-side)</center></p> 
+			<p><center>(target difficulty: 1.86, 2.54, 3.30; result 1.72, 2.42, 3.38)</center></p>
+		</div></center>
 	</body>
 </html>
