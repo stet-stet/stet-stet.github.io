@@ -1,0 +1,186 @@
+WEBVTT
+
+1
+00:00:02.800 --> 00:00:04.420
+Hello, and Welcome.
+
+2
+00:00:05.340 --> 00:00:10.000
+In this work, we investigate a novel method to music-based content generation
+
+3
+00:00:10.000 --> 00:00:12.460
+for a genre of games known as rhythm games.
+
+4
+00:00:14.000 --> 00:00:21.500
+Rhythm games refer to video games, which require the player to perform specific actions in sync with a piece of music.
+
+5
+00:00:21.780 --> 00:00:25.000 
+Such sequence of actions is commonly called a "chart".
+
+6
+00:00:27.050 --> 00:00:29.170 
+in this case, the player earns scores 
+
+7
+00:00:29.170 --> 00:00:32.610
+by correctly pressing the four corresponding buttons on the keyboard, 
+
+8
+00:00:32.610 --> 00:00:33.780
+on the correct timing.
+
+9
+00:00:36.030 --> 00:00:39.690
+there does not exist a uniquely fixed answer to charting, 
+
+10
+00:00:39.690 --> 00:00:46.300
+with individual styles of the charter often a big factor in deciding how the chart will turn out to be.
+
+11
+00:00:46.300 --> 00:00:51.210
+Further complicating the problem is that the notes must be placed in a way that fits the music, 
+
+12
+00:00:51.210 --> 00:00:54.750
+and the difficulty must be adjusted to match the player's needs.
+
+13
+00:00:55.230 --> 00:00:57.460
+Charting is a highly nontrivial challenge.
+
+14
+00:00:59.880 --> 00:01:05.110
+In response, a number of learning-based approaches to chart generation were proposed.
+
+15
+00:01:05.110 --> 00:01:08.190
+However, many of them infer on short time granules, 
+
+16
+00:01:08.190 --> 00:01:10.860
+inferring if a note exists for each and every one of them. 
+
+17
+00:01:12.080 --> 00:01:17.500
+Typically, more than 90% of time granules do not have notes associated with them, 
+
+18
+00:01:17.500 --> 00:01:19.480
+therefore a class imbalance is caused. 
+
+19
+00:01:21.170 --> 00:01:28.260
+We reformulate chart generation as a sequence generation problem, and utilize a big dataset so that our model may converge well.
+
+20
+00:01:30.800 --> 00:01:36.800
+We use the four-key "mania" mode of a popular rhythm game, "Osu!".
+
+21
+00:01:36.800 --> 00:01:39:610
+The game is open-sourced and community driven; 
+
+22
+00:01:39:610 --> 00:01:45:500
+over the past 16-years since the game's launch tens of thousands songs had a chart made for them by the users.
+
+23
+00:01:46.730 --> 00:01:52.150
+We gather more than 250 hours-worth of peer-reviewed charts, and divide them as follows.
+
+24
+00:01:54.600 --> 00:01:58.880
+In our approach, we feed constant-length Log-Mel spectrograms 
+
+25
+00:01:58.880 --> 00:02:01.820
+to an encoder-decoder transformer network,
+
+26
+00:02:01.820 --> 00:02:04.460
+autoregressively generating tokens, 
+
+27
+00:02:04.460 --> 00:02:06.460
+which directly correspond to charts.
+
+28
+00:02:08.110 --> 00:02:10.450
+These tokens are fed to the network again, 
+
+29
+00:02:10.450 --> 00:02:14.690
+with the next batch of spectrograms, one-half overlapping with the previous batch, 
+
+30
+00:02:14.690 --> 00:02:17.230
+to generate charts for the next part. 
+
+31
+00:02:17.230 --> 00:02:19.820
+this continues until the music ends.
+
+32
+00:02:20.920 --> 00:02:25.280
+To make learning easier for our model, we align training samples to the beat, 
+
+33
+00:02:25.280 --> 00:02:31.440
+and normalize the length, so that the transformer will be fed four beats of samples at a time.
+
+34
+00:02:31.440 --> 00:02:36.940
+We do this in hopes that our model may learn to recognize and utilize musical microstructure.
+
+35
+00:02:36.940 --> 00:02:41.260
+For example, we want the model to recognize that a heavy stimulus like the kick 
+
+36
+00:02:41.260 --> 00:02:46.150
+...is more likely to occur on the downbeat, than, say, one third of a beat.
+
+37
+00:02:47.260 --> 00:02:51.070
+It turned out that this beat-aligning increases metrics dramatically, 
+
+38
+00:02:51.070 --> 00:02:57.460
+especially for notes in unconventional positions, for instance those positioned on one third or one eighth of a beat. 
+
+39
+00:02:59.170 --> 00:03:05.320
+more evaluation, including comparison with a baseline, is available on our companion page discussed later.
+
+40
+00:03:08.420 --> 00:03:14.340
+Now we present some excerpts of charts generated from pieces of music yet unseen by the model.
+
+41
+00:04:22.570 --> 00:04:27.630
+Qualitatively, we observe that our model can generate charts for various genres, 
+
+42
+00:04:27.630 --> 00:04:33.300
+at various difficulties, often accentuating any musical context.
+
+43
+00:04:33.300 --> 00:04:37.000
+We publicly share our training code and trained models.
+
+44
+00:04:37.000 --> 00:04:42.670
+We are looking for feedback on the quality of charts generated, or on our approach itself.
+
+45
+00:04:42.670 --> 00:04:51.440
+Please find more information on our companion site, stet-stet.github.io/goct.
+
+46
+00:04:51.440 --> 00:04:51.920
+Thank you.
+
