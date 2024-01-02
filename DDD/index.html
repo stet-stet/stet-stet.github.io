@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <title>DDD: A Perceptually Superior Low-Response-Time DNN-Based Declipper</title>
+    
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    
+        <!-- Custom fonts for this template -->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+        <!-- Custom styles for this template -->
+        <link href="css/agency.min.css" rel="stylesheet">
+        <link href="css/agency.css" rel="stylesheet">
+    
+    </head>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Menu -->
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#abstract">Abstract</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#samples">Audio Samples</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <body id="page-top">
+        <!-- Header -->
+        <header class="masthead">
+            <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">DDD:</div>
+                <div class="intro-lead-in">A Perceptually Superior</div>
+                <div class="intro-lead-in">Low-Response-Time</div>
+                <div class="intro-lead-in">DNN-Based Declipper</div>
+                
+                <p><div style="position:center;"> <br><br>*Jayeon Yi, Junghyun Koo, Kyogu Lee<br><i>*This work was done during an internship at MARG (Music and Audio Research Group), Seoul National university</i> </div></p>
+                <p><div style="position:center;"> <br><br>Paper: TBD </div></p>
+                <p><div style="position:center;"> Code: <a href="https://github.com/stet-stet/DDD" style="color:#4c4ce6"> https://github.com/stet-stet/DDD</a> </div></p>
+            </div>
+            </div>
+        </header>
+
+        <!-- Abstract -->
+        <section id="abstract">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">ABSTRACT</h2>
+                    <p><div style="text-align:justify"> Clipping is a common nonlinear distortion that occurs whenever input or output of an audio system exceeds the supported range. This phenomenon undermines not only the perception of speech quality but also downstream processes utilizing the disrupted signal. Therefore, a real-time-capable, robust, and low-response-time method for speech declipping (SD) is desired. In this work, we introduce DDD (Demucs-Discriminator-Declipper), a real-time-capable speech-declipping deep neural network (DNN) that requires less response time by design. We first observe that a previously untested real-time-capable DNN model, Demucs, exhibits a reasonable declipping performance. Then we utilize adversarial learning objectives to increase the perceptual quality of output speech without additional inference overhead. Subjective evaluation shows that DDD outperforms the baselines by a wide margin in terms of speech quality. We perform detailed waveform and spectral analyses to gain an insight into the output behavior of DDD in comparison to the baselines. Finally, our streaming simulations also show that DDD is capable of sub-decisecond mean response times, outperforming the state-of-the-art DNN approach by a factor of six. </div></p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+            <!-- Samples -->
+    <section class="bg-light" id="samples">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading text-uppercase">Audio Samples</h2>
+              <br>
+              <div class="nav nav-pills justify-content-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link py-3 px-4 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Voicebank-DEMAND dataset</a>
+                <a class="nav-link py-3 px-4" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">DNS-Challenge Dataset</a>
+              </div>
+              <div class="tab-content py-5" id="v-pills-tabContent">
+  
+                <!-- Voiceband-DEMAND 1dB -->
+                <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                  <p><div style="text-align:justify"> Inference on <b>Voiceband-DEMAND</b> dataset.
+                    <br> Below are some reconstructed Voicebank-DEMAND dataset samples used in our MUSHRA-like test. 
+                    <br> All DNN models are trained on the Voiceband-DEMAND dataset (16kHz). 
+                    <br> The test-split samples below are <b>normalized to -27 LUFS</b>, and used as such for subjective testing.
+                    <br> We also disclose the <a href="https://drive.google.com/file/d/1b3Id8LVFHVhs5SpxI9emvUOt3ofbDHIz/view?usp=sharing" style="color:#4c4ce6"> the full set of reconstructed test splits at various SNRs (1, 3, 7, 15dB)</a>
+                    <br> <p style="color:#93a1a1;"><i>Please use devices such as speakers, headphones, and earphones in a quiet environment to analyze the sound source. </i></p></div></p>
+                    <style type="text/css">
+                      .center{  margin-left: auto;margin-right: auto;}
+                      .tg  {border-collapse:collapse;border-color:#bbb;border-spacing:0;}
+                      .tg td{background-color:#E0FFEB;border-color:#bbb;border-style:solid;border-width:1px;color:#594F4F;
+                        font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+                      .tg th{background-color:#9DE0AD;border-color:#bbb;border-style:solid;border-width:1px;color:#493F3F;
+                        font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+                      .tg .tg-egha{background-color:#036400;border-color:#680100;color:#f8a102;font-weight:bold;font-size:16px;text-align:center;vertical-align:middle}
+                      .tg .tg-x4ez{border-color:#680100;text-align:center;vertical-align:middle}
+                      .tg .tg-1lrr{background-color:#ffffff;border-color:#680100;font-weight:bold;text-align:center;vertical-align:middle}
+                      .tg .tg-4iew{background-color:#ffffff;border-color:#680100;text-align:center;vertical-align:middle}
+                      .tg .tg-7s6s{border-color:#680100;font-weight:bold;text-align:center;vertical-align:middle}
+                      </style>
+                      <table class="tg center">
+                      <thead>
+                        <tr>
+                          <th class="tg-egha">Reference</th>
+                          <th class="tg-egha">Clipped <br>(SNR = 1dB)</th>
+                          <th class="tg-egha">A-SPADE</th>
+                          <th class="tg-egha">DDD<br>(proposed)</th>
+                          <th class="tg-egha">T-UNet</th>
+                          <th class="tg-egha">DD<br>(proposed) </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/G_1.wav" type="audio/wav"></audio></td>
+                          <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/F_1.wav" type="audio/wav"></audio></td>
+                          <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/A_1.wav" type="audio/wav"></audio></td>
+                          <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/C_1.wav" type="audio/wav"></audio></td>
+                          <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/B_1.wav" type="audio/wav"></audio></td>
+                          <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/D_1.wav" type="audio/wav"></audio></audio></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-1lrr" ><audio controls style="width:150px;"><source src="audio/20_vbdm/G_5.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew" ><audio controls style="width:150px;"><source src="audio/20_vbdm/F_5.wav" type="audio/wav"></audio></td>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/A_5.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/C_5.wav" type="audio/wav"></audio></td>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/B_5.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/D_5.wav" type="audio/wav"></audio></audio></td>
+                          </tr>
+                          <tr>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/G_11.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/F_11.wav" type="audio/wav"></audio></td>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/A_11.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/C_11.wav" type="audio/wav"></audio></td>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/B_11.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/D_11.wav" type="audio/wav"></audio></audio></td>
+                          </tr>
+                          <tr>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/G_16.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/F_16.wav" type="audio/wav"></audio></td>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/A_16.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/C_16.wav" type="audio/wav"></audio></td>
+                            <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/20_vbdm/B_16.wav" type="audio/wav"></audio></td>
+                            <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/20_vbdm/D_16.wav" type="audio/wav"></audio></audio></td>
+                          </tr>
+                      </tbody>
+                      </table>
+                </div>
+  
+                <!--DNS-Challenge 1dB -->
+                <div class="tab-pane fade center" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                  <p><div style="text-align:justify">  Inference on <b>DNS-Challenge</b> dataset.
+                    <br> Below are some reconstructed samples from the DNS-Challenge Dataset, used in our MUSHRA-like test.
+                    <br> <i>All DNN models are trained on the Voiceband-DEMAND dataset (16kHz).</i> The test-split samples below were normalized to -27 LUFS prior to subjective testing.
+                    <br> We also disclose the <a href="https://drive.google.com/file/d/1b3Id8LVFHVhs5SpxI9emvUOt3ofbDHIz/view?usp=sharing" style="color:#4c4ce6"> the full set of reconstructed test splits at various SNRs (1, 3, 7, 15dB)</a>
+                    <br> <p style="color:#93a1a1;"><i>Please use devices such as speakers, headphones, and earphones in a quiet environment to analyze the sound source. </i></p></div></p>
+                    <style type="text/css">
+                      .center{  margin-left: auto;margin-right: auto;}
+                      .tg  {border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
+                      .tg td{background-color:#e8edff;border-bottom-width:1px;border-color:#aabcfe;border-style:solid;border-top-width:1px;
+                        border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+                        word-break:normal;}
+                      .tg th{background-color:#b9c9fe;border-bottom-width:1px;border-color:#aabcfe;border-style:solid;border-top-width:1px;
+                        border-width:0px;color:#039;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+                        padding:10px 5px;word-break:normal;}
+                      .tg .tg-ga12{background-color:#ffffff;border-color:inherit;color:#000000;text-align:center;vertical-align:middle}
+                      .tg .tg-1k8z{background-color:#ffffff;border-color:inherit;color:#000000;font-weight:bold;text-align:center;vertical-align:middle}
+                      .tg .tg-7uo3{background-color:#cbcefb;border-color:inherit;color:#000000;font-weight:bold;text-align:center;vertical-align:middle;font-size:16px}
+                      .tg .tg-rnnf{background-color:#ccd6f7;border-color:inherit;color:#000000;font-weight:bold;text-align:center;vertical-align:middle}
+                      .tg .tg-36ne{background-color:#ccd6f7;border-color:inherit;color:#000000;text-align:center;vertical-align:middle}
+                      .tg .tg-uoai{background-color:#ccd6f7;border-color:inherit;color:#000000;font-weight:bold;text-align:center;vertical-align:middle}
+                      </style>
+                      <table class="tg center">
+                        <thead>
+                          <tr>
+                            <th class="tg-egha">Reference</th>
+                            <th class="tg-egha">Clipped<br>(SNR = 1dB)</th>
+                            <th class="tg-egha"> A-SPADE<br>(unused in this test) </th>
+                            <th class="tg-egha">DDD<br>(proposed)</th>
+                            <th class="tg-egha">T-UNet</th>
+                            <th class="tg-egha">DD<br>(proposed)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/G_32.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/F_32.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"> - </audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/C_32.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/B_32.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/D_32.wav" type="audio/wav"></audio></audio></td>
+                            </tr>
+                            <tr>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/G_23.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/F_23.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"> - </audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/C_23.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/B_23.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/D_23.wav" type="audio/wav"></audio></audio></td>
+                            </tr>
+                            <tr>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/G_34.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/F_34.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"> - </td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/C_34.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/B_34.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/D_34.wav" type="audio/wav"></audio></audio></td>
+                            </tr>
+                            <tr>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/G_21.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/F_21.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"> - </audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/C_21.wav" type="audio/wav"></audio></td>
+                                <td class="tg-1lrr"><audio controls style="width:150px;"><source src="audio/15_dns/B_21.wav" type="audio/wav"></audio></td>
+                                <td class="tg-4iew"><audio controls style="width:150px;"><source src="audio/15_dns/D_21.wav" type="audio/wav"></audio></audio></td>
+                            </tr>                           
+                        </tbody>
+                        </table>
+                </div>
+  
+              </div>
+              <div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/agency.min.js"></script>
+    </body>
+</html>
